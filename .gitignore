@@ -1,0 +1,67 @@
+### Frontend ###
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# build output
+frontend/dist
+frontend/build
+
+# local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# misc
+frontend/.DS_Store
+frontend/*.pem
+
+# log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# editor files
+frontend/.idea
+frontend/.vscode
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+
+### Backend (Spring Boot) ###
+# Maven / Gradle output
+target/
+build/
+
+# IDE files
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local env / config
+*.env
+application-*.yml
+application-*.properties
+
+### General ###
+# System files
+*.swp
+*.swo
