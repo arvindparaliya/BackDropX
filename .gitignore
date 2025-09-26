@@ -1,0 +1,159 @@
+# General / OS / Editor
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+# Swap files
+*.swp
+*.swo
+
+# IDEs / editors
+/.idea/
+.vscode/
+*.iml
+*.iws
+*.sln
+*.suo
+*.ntvs*
+*.njsproj
+.project
+.classpath
+.settings/
+
+
+# Node / Frontend
+# dependencies
+/frontend/node_modules/
+/node_modules/
+
+# Yarn PnP 
+/frontend/.pnp
+/frontend/.pnp.js
+
+# build / output
+/frontend/dist/
+/frontend/build/
+/dist/
+/build/
+
+# local env files 
+/frontend/.env
+/frontend/.env.*
+!.env.example
+!/frontend/.env.example
+
+# logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# misc
+/frontend/.DS_Store
+/frontend/*.pem
+/frontend/*.key
+
+# Backend (Spring Boot / Java / Maven )
+# build output
+/backend/target/
+/target/
+/build/
+
+#Maven Wrapper
+!mvnw
+!mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Maven wrapper - typically you SHOULD commit this jar, so un-ignore it if necessary
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+logs/
+
+# Compiled classes / jars
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+
+# Local env / config (ignore sensitive application configs)
+*.env
+.env.*
+application-*.yml
+application-*.yaml
+application-*.properties
+backend/src/main/resources/application.properties
+
+!**/*.example
+
+# Keystores, certificates and keys
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+keyfile.txt
+
+
+# local DB volumes / data folders
+mysql_data/
+db_data/
+
+# uploaded files and user content
+/uploads/
+uploads/
+*.mp4
+*.zip
+uploads/*.jpg
+uploads/*.png
+
+# project-specific temp/text files
+textFiles/
+
+
+# common credential files
+credentials.json
+serviceAccountKey.json
+google-service-account-*.json
+*.pem
+*.p12
+.secrets/
+.secrets
+*.secret
+
+# cloud provider credentials
+.aws/
+.aws-credentials
+.azure/
+.gcloud/
+.gcp/
+
+# other local configs
+.envrc
+.npmrc
+.yarnrc
+.pnpmfile.cjs
+
+# Test / Coverage
+coverage/
+coverage-report/
+*.lcov
+
+# Misc / Build caches
+.cache/
+.cache-loader/
+.parcel-cache/
+/.turbo/
+
+
+.env
+application.properties
